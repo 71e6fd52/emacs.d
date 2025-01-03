@@ -55,8 +55,8 @@
 ;; (use-package dap-mode)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
 
-(require-package 'yasnippet)
-(add-hook 'lsp-mode-hook #'yas-minor-mode)
+;; (require-package 'yasnippet)
+;; (add-hook 'lsp-mode-hook #'yas-minor-mode)
 
 (provide 'init-lsp)
 ;;; init-lsp.el ends here
